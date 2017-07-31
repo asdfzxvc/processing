@@ -24,4 +24,10 @@ void draw()
   
   else if(mouseX < 100 && mouseY > 100)
   rect(0,100,100,100);
+  
+  
+  
+  
+  if(mousePressed)
+  background(random(255),random(255),random(255));
 }
