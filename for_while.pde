@@ -13,7 +13,6 @@ int len =20;
 for(int x=50; x<=endLedgs; x+=spacing)
 {
   line(x,y,x,y+len);
-  x=x+spacing;
 }
 
 
